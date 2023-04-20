@@ -1,0 +1,265 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../img/b_coffee.jpg");
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0px;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.imgRow{
+    display: flex;
+    align-items: center;
+    margin-top: -290px;
+}
+
+.imgPosition {
+    display: flex;
+    margin: 0px 20px;
+}
+
+.more {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.about {
+    display: flex;
+    width: 250px;
+    margin-left: 20px;
+
+
+}
+
+.firstCol {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.firstCol>a {
+    color: green;
+    font-size: 19px;
+
+}
+
+.firstCol>span {
+    margin-top: 10px;
+}
+
+.vision {
+    display: flex;
+    width: 255px;
+    margin-left: 30px;
+
+
+}
+
+.secondCol {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.secondCol>a {
+    color: green;
+    font-size: 19px;
+
+}
+
+.secondCol>span {
+    margin-top: 10px;
+}
+
+.news {
+    display: flex;
+    width: 280px;
+    margin-left: 30px;
+}
+
+.thredCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.dateT {
+    display: flex;
+    position: relative;
+}
+
+.dataText {
+    display: flex;
+    margin: -20px;
+    margin-left: 25px;
+    color: green;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.footerF {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 830px;
+}
+
+.mySelf {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.education {
+    display: flex;
+    justify-content: space-between;
+    width: 830px;
+    margin-top: 30px;
+
+}
+
+.edu {
+    flex-direction: column;
+    width: 250px;
+}
+
+.edu>span>a {
+    color: green;
+}
+
+.edu>a {
+    color: green;
+}
+
+.expre {
+    margin-left: 80px;
+}
+
+.eduIner {
+    display: flex;
+
+}
+
+.port {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.artCom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.dataText2 {
+    display: flex;
+    margin: -24px;
+    margin-left: 7px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 820px;
+}
+
+.fservice {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 600px;
+}
+
+.sservice {
+    display: flex;
+    align-items: center;
+
+}
+
+.fser{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    width: 825px;
+}
+
+.contactMe{
+    display: flex;
+    justify-content: space-between;
+}
+
+.droup{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.droupMe{
+    display: flex;
+    justify-content: space-between;
+    margin-top:15px;
+
+}
+.droupBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input{
+    
+   background: url("../img/b_input1.png");
+    outline: none;
+    width: 260px;
+    height: 45px;
+    border-width: inherit; 
+}
+.messageInp{
+    background-image: url("../img/b_input2.png");
+    width: 826px;
+    height: 130px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.sendMes{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
